@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="no">
-  <!--Head er kun for nettleser informasjon-->
+  <!-- Head er kun for nettleser informasjon -->
   <head>
     <title>Hjem</title>
-    <link rel="icon" type="image/x-icon" href="html.png">
+    <link rel="icon" type="image/x-icon" href="html.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
+
+  <!-- Body er kun for det som skal synes på selve nettsiden -->
   <body>
-    <nav>
-    </nav>
+    <header>
+      <img class="headerLogo" src="images/html.png" alt="Logo with a code bracket." />
+      <nav>
+        <!-- Navigasjons elementene skal være en ul-liste. Bookmark anchors -->
+        <a href="">Nav 1</a>
+        <a href="">Nav 2</a>
+        <a href="">Nav 3</a>
+      </nav>
+    </header>
     <main>
-      <body>
-        <header>
-           <nav>
-              <a href="">Hjem</a>
-              <a href="">Om meg</a>
-              <a href="">Prosjekter</a>
-           </nav>
-        </header>
-        <main>
-           <section>
-              <h1>Velkommen til min side</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique accusamus voluptate laudantium, voluptas, aspernatur architecto, nulla atque ipsam facere nam dicta a quam in veniam cumque temporibus eum odit?</p>
-           </section>
-           <section>
-              <h2>Om meg</h2>
-           </section>
-           <section>
-              <h2>Prosjekter</h2>
-           </section>
-        </main>
-        <footer>
-           <h3>Laget av Therese</h3>
-        </footer>
-      </body>
+      <section class="sectionHero">
+        <!-- Hero-section: kort introduksjon til produktet. booking knapp -->
+        <img class="herImg" src="#" alt="Bilde av en matrett">
+        <div class="heroText">
+         <h1>Resturant</h1>
+         <p>Slagord for resturant</p>
+        </div>
+        <div class="heroButton">
+         <button>Bestill bord</button>
+         <button>Bestill levering</button>
+        </div>
+      </section>
+
+      <section>
+        <!-- Seksjon 2 -->
+      </section>
+
+      <section>
+        <!-- Seksjon 3 -->
+      </section>
+    </main>
+    <footer>
+      <h4>Laget av Julie</h4>
+    </footer>
   </body>
 </html>
